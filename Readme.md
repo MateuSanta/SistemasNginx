@@ -42,7 +42,7 @@ Cambiaremos el nombre de los dos html a index.html:
 
 Para finalizar en la máquina virtual utilizaremos el comando:
 
-''sudo nginx -s reload''
+``sudo nginx -s reload``
 
 Como lo hemos hecho en una máquina virtual, tendremos que cambiar el archivo hosts en la computadora local.
 
