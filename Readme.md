@@ -4,7 +4,7 @@ Para la instalación y configuración de nginx utilizaremos una máquina virtual
 
 Primero de todo usaremos el comando:
 
-''sudo apt install nginx''
+``sudo apt install nginx``
 
 Una vez instalado, iremos a la carpeta /var/www/ y crearemos 2 carpetas llamadas carpeta 1 y carpeta2.
 
@@ -14,7 +14,7 @@ Estas carpetas se utilizarán para meter los html cuyos vamos a hostear.
 
 Para obtener los html usaremos el comando, una vez situados en la carpeta en la que queremos el archivo.
 
-''sudo wget url''
+``sudo wget url``
 
 ![sudoawget](https://user-images.githubusercontent.com/91744614/167161111-744ea361-e7fa-4c42-827d-fb50020c94ba.PNG)
 
@@ -32,7 +32,7 @@ Ahora nos dirigiremos en sites-enabled y copiaremos los dos archivos que hemos c
 
 ![sitesenabled](https://user-images.githubusercontent.com/91744614/167171420-0e9f4e34-bf2a-4c64-b9e8-3b08eadb6023.PNG)
 
-A continuación, iremos a /etc/hosts y añadiremos las dos direcciones:
+A continuación, iremos a /etc/, en el archivo hosts añadiremos las dos direcciones:
 
 ![hosts](https://user-images.githubusercontent.com/91744614/167166977-80a9a2a9-de15-4c8d-ac1b-cc8206083add.PNG)
 
